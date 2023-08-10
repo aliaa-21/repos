@@ -1,0 +1,42 @@
+* {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+.first {
+    background-color: #1F2937;
+    margin: 0px;
+    margin-top: 0px;
+    height: 450px;
+    color: aliceblue;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.second {
+    display: flex;
+    height: 450px;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+.picture {
+    flex: 1;
+}
+.third {
+
+    height: 350px;
+    background-color: #E5E7EB;
+    padding-left: 90px;
+    padding-right: auto;
+    padding-top: 40px;
+    text-align: center;
+
+}
