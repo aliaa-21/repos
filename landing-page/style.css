@@ -1,12 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    align-items: center;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 30px;
+}
 
-h1 {
-    flex-grow: 2;
-    font-size: 30px;
-    text-align: start;
-}
-h3 { 
-    gap: 6px;
-}
 .first {
     background-color: #1F2937;
     margin: 0px;
@@ -15,26 +18,40 @@ h3 {
     color: aliceblue;
     display: flex;
     flex: 1;
-    justify-content: center;
     align-items:center;
+    justify-content: center;
+}
 
+.main-text {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 300;
+    width: 400px;
 
+}
+
+.logo {
+    font-size: 38px;
+}
+
+.website {
+    font-size: 36px;
 }
 .main-image {
     display: flex;
     flex-direction: column;
     justify-content: right;
+    justify-content: space-between;
 
 }
 .nav {
     display: flex;
     align-items: end;
     justify-content: right;
-    gap: 15px;
+    gap: 22px;
 }
-.main-text {
-  
-}
+
 .first-image {
 height: 270px;
 width: auto;
@@ -46,13 +63,10 @@ body {
     margin: 0px;
     margin-top: 0px;
 }
-h1 {
-    text-align: center;
-    font-weight: bold;
-}
+
 .second {
     display: flex;
-    height: 450px;
+    height: 500px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -60,36 +74,106 @@ h1 {
 }
 
 .facts {
+    margin-top: 0;
     font-size: 30px;
     color: #1F2937;
     font-weight: bold;
 
 }
-.third {
-    display: flex;
-    height: 350px;
-    background-color: #E5E7EB;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    align-items: center;
-    justify-content: center;
 
-}
-
-.picture {
-    margin: 30px;
-    height: 150px;
-    width: auto;
-    flex: 1;
-    border-radius: 8px;
-}
-
+    
 .center-second{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    gap: 35px;
+    text-align: center;
+}
+.chick {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+.picture {
+    height: auto;
+    width: 150px;
+    flex: 1;
+    border-radius: 8px;
+}
 
+.third {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    background-color: #E5E7EB;
+    padding-left: 180px;
+    padding-right: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    gap: 8px;
+}
+
+.fourth {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    background-color:#3882F6 ;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    padding: 20px;
+    width: 750px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.call-text {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 15px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: white;
+    border-width: 2px;
+    
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    height: 75px;
+    text-align: right;
+    display: flex;
+    justify-content: right;
 }
