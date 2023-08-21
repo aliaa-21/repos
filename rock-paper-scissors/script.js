@@ -1,5 +1,12 @@
 
-function computer()
+
+let player = 0;
+let opponent = 0;
+
+while(opponent < 5 && player < 5)
+{
+
+    function computer()
 {
     let options = ["rock", "scissors", "paper"];
     let index = Math.floor(Math.random()*3);
@@ -8,11 +15,6 @@ function computer()
 }
 
 let computerSelection = computer()
-let player = 0;
-let opponent = 0;
-
-while(opponent < 5 && player < 5)
-{
     let userSelection = prompt("").toLowerCase();
 
 
